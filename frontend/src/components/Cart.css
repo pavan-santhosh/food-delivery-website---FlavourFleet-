@@ -1,0 +1,122 @@
+.Navbar {
+    background-color: red;
+    padding: 12px 5px 5px 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Navbar li {
+    display: inline;
+    margin-left: 3em;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.CartPage-title {
+    font-size: 48px;
+    margin: 2em 0em 1em 2em;
+}
+
+.CartPage-items {
+    margin-left: 5em;
+    margin-right: 1em;
+    width: 55%;
+}
+
+.CartPage-items table {
+    border-collapse: collapse;
+    border-spacing: 0px 15px;   
+    width: 100%;
+    float: left;
+
+}
+
+.CartPage-items div {
+    background-color: #ecebeb;
+    margin: 0.5em;
+    height: 20vh;
+    border-radius: 15px;
+    
+}
+
+.CartPage-items .SNo {
+    font-size: 150%;
+    width: 2em;
+}
+
+.CartPage-items .image{
+    height: 20vh;
+    width: 20vh;
+}
+
+.CartPage-bill {
+    background-color: #ecebeb;
+    width: 32%;
+    height: 60%;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-right: 4em;
+    border-radius: 20px;
+    padding-bottom: 2em;
+    float: left;
+}
+
+.CartPage-item-bill {
+    font-size: 18px;
+    margin: 3em 4em 4em 4em;
+}
+
+.coupons-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #5AEB16;
+    margin: 2em;
+    color: white;
+    font-size: 12px;
+    padding: 5px 40px 5px 20px;
+}
+
+.coupons-btn:hover {
+    background-color: greenyellow;
+}
+
+.pay-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #F90D0D;
+    margin: 2em;
+    color: white;
+    font-size: 24px;
+    margin-top: 8em;
+    padding: 5px 40px 5px 20px;
+
+}
+
+.pay-btn:hover {
+    background-color: rgb(231, 53, 53);
+}
+
+.coupons-search {
+    width: 0%;
+    height: 87vh;
+    background-color: rgb(235, 252, 251);
+    position: fixed;
+    right: 0;
+    transition: 0.5s;
+}
+
+.coupon-codes {
+    height: 77vh;
+    overflow: scroll;
+}
+
+.coupon-codes::-webkit-scrollbar-thumb {
+    background: #F90D0D;
+}
+
+.coupon-codes::-webkit-scrollbar {
+    width: 15px;
+}

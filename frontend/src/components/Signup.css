@@ -1,0 +1,97 @@
+.SignupPage {
+    height:710px;
+    background-image: url('../images/auth_background.jpeg');
+}
+
+
+
+.SignupPage-container{
+    height: 60%;
+    width: 54%;
+    align-items: center;
+    position: absolute;
+    left: 23%;
+    top: 15%;
+    border: 5px solid black;
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 25px;
+    color: orangered;
+    font-family: 'Roboto', sans-serif;
+}
+
+.SignupPage-corousel{
+    width: 65%;
+    height: 100%;
+    background-color: black;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    float: left;
+    overflow: hidden;
+}
+
+.SignupPage-details{
+    width: 35%;
+    height: 100%;
+    float: left;
+    color: black;
+    background-color: white;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+.SignupPage-details h1{
+   padding-left: 7%;
+   padding-top: 10%;
+   padding-bottom: 40px;
+}
+
+.SignupPage-details form input{
+    border: none;
+    border-bottom: 3px solid black;
+    padding-top: 20px;
+}
+
+.SignupPage-details form input:focus{
+    outline: none;
+}
+
+.SignupPage-details form div{
+    text-align: center;
+}
+
+
+.SignupPage-details form button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 120%;
+    font-weight: 600;
+    border-radius: 25px;
+    width: 200px;
+    margin-top: 45px;
+    margin-left: 15%;
+}
+
+.SignupPage-details form p{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.SignupPage-corousel img{
+    width: auto;
+    height: 420px;
+}
+
+
+
+
+
+.back-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+  }
